@@ -385,27 +385,6 @@
     </div>
 
     <script src="app.js"></script>
-    <script>
-    const downloadButton = document.getElementById('download-button');
 
-// Define the file URL
-const cvFileUrl = '/img/Abdelhameed Ahmed CV.pdf'; // Replace with the actual file path
-
-// Add a click event listener to the button
-downloadButton.addEventListener('click', function () {
-    // Create a new anchor element
-    const anchor = document.createElement('a');
-    anchor.href = cvFileUrl;
-
-    // Set the download attribute and file name
-    anchor.download = 'your_cv.pdf'; // You can set a custom file name here
-
-    // Programmatically trigger a click event on the anchor
-    anchor.click();
-
-    // Clean up by removing the anchor element
-    anchor.remove();
-});
-    </script>
 </body>
 </html>
